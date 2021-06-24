@@ -1,0 +1,72 @@
+body{
+    background-image: url('../resources/background.jpg');
+    background-size: auto;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-color: #202020;
+}
+
+.figura-uno{
+    width: 960px;
+    clip-path: polygon(0 0, 86% 0, 100% 100%, 0% 100%);
+    background-color: #202020;
+}
+
+.figura-dos {
+    height: 128px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    background-color: white;
+    clip-path: polygon(0 100%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.content{
+    margin-left: 128px;
+    color: white;
+    margin-top: 30%;
+}
+
+.content img {
+    margin-bottom: 25px;
+}
+
+.bg{
+    height: 100%;
+}
+
+.titulo{
+    font-family: Roboto Condensed;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.subtitulo{
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.boton{
+    background-color: #1B90FC;
+    border-radius: 30px;
+    padding: 16px 34px;
+    margin-top: 25px;
+}
+.txt-button{
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
